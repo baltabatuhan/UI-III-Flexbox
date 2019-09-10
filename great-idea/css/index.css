@@ -165,12 +165,12 @@ header {
 }
 header nav {
   text-align: center;
+  display: flex;
 
   height: 70px;
 }
 header nav a {
   margin: 0 3% 0 3%;
-  display: inline-block;
   vertical-align: middle;
   color: lightgrey;
 }
@@ -179,10 +179,10 @@ header nav a:last-child {
 }
 .content .slider {
   height: 400px;
+  display: flex;
 }
 
 .content .slider .slider-box {
-  display: inline-block;
   width: 49%;
   text-align: center;
 }
@@ -198,9 +198,9 @@ header nav a:last-child {
 .content .about {
   margin-top: 3%;
   border-top: 1px solid black;
+  display: flex;
 }
 .content .about .about-box {
-  display: inline-block;
   width: 49%;
   padding-top: 7%;
   margin-top: 4%;
@@ -210,18 +210,19 @@ header nav a:last-child {
 }
 .content .about-company {
   border-bottom: 1px solid black;
+  display: flex;
 }
 .content .about-company .box {
-  display: inline-block;
   width: 33%;
 
   padding-bottom: 7%;
 }
 
 .contact {
-  margin-top: 4%;
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
   line-height: 2;
+  text-align: justify;
 }
 .Copyright {
   text-align: center;
